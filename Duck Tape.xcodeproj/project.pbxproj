@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5793F7D25785B5D003CEDC8 /* Duck Tape WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B5793F7C25785B5D003CEDC8 /* Duck Tape WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B5793F8225785B5F003CEDC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5793F8125785B5F003CEDC8 /* Assets.xcassets */; };
+		B5793F8925785B5F003CEDC8 /* Duck Tape WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B5793F8825785B5F003CEDC8 /* Duck Tape WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B5793F8E25785B5F003CEDC8 /* Duck_TapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5793F8D25785B5F003CEDC8 /* Duck_TapeApp.swift */; };
+		B5793F9025785B5F003CEDC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5793F8F25785B5F003CEDC8 /* ContentView.swift */; };
+		B5793F9225785B5F003CEDC8 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5793F9125785B5F003CEDC8 /* NotificationController.swift */; };
+		B5793F9425785B5F003CEDC8 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5793F9325785B5F003CEDC8 /* NotificationView.swift */; };
+		B5793F9625785B5F003CEDC8 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5793F9525785B5F003CEDC8 /* ComplicationController.swift */; };
+		B5793F9825785B5F003CEDC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5793F9725785B5F003CEDC8 /* Assets.xcassets */; };
+		B5793F9B25785B5F003CEDC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5793F9A25785B5F003CEDC8 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5793F7E25785B5D003CEDC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5793F7225785B5D003CEDC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5793F7B25785B5D003CEDC8;
+			remoteInfo = "Duck Tape WatchKit App";
+		};
+		B5793F8A25785B5F003CEDC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5793F7225785B5D003CEDC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5793F8725785B5F003CEDC8;
+			remoteInfo = "Duck Tape WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5793FA325785B5F003CEDC8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B5793F8925785B5F003CEDC8 /* Duck Tape WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5793FA725785B5F003CEDC8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B5793F7D25785B5D003CEDC8 /* Duck Tape WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B5793F7825785B5D003CEDC8 /* Duck Tape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duck Tape.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5793F7C25785B5D003CEDC8 /* Duck Tape WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duck Tape WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5793F8125785B5F003CEDC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5793F8325785B5F003CEDC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5793F8825785B5F003CEDC8 /* Duck Tape WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Duck Tape WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5793F8D25785B5F003CEDC8 /* Duck_TapeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck_TapeApp.swift; sourceTree = "<group>"; };
+		B5793F8F25785B5F003CEDC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5793F9125785B5F003CEDC8 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		B5793F9325785B5F003CEDC8 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		B5793F9525785B5F003CEDC8 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		B5793F9725785B5F003CEDC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5793F9A25785B5F003CEDC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5793F9C25785B5F003CEDC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5793F9D25785B5F003CEDC8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5793F8525785B5F003CEDC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5793F7125785B5D003CEDC8 = {
+			isa = PBXGroup;
+			children = (
+				B5793F8025785B5D003CEDC8 /* Duck Tape WatchKit App */,
+				B5793F8C25785B5F003CEDC8 /* Duck Tape WatchKit Extension */,
+				B5793F7925785B5D003CEDC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5793F7925785B5D003CEDC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5793F7825785B5D003CEDC8 /* Duck Tape.app */,
+				B5793F7C25785B5D003CEDC8 /* Duck Tape WatchKit App.app */,
+				B5793F8825785B5F003CEDC8 /* Duck Tape WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5793F8025785B5D003CEDC8 /* Duck Tape WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B5793F8125785B5F003CEDC8 /* Assets.xcassets */,
+				B5793F8325785B5F003CEDC8 /* Info.plist */,
+			);
+			path = "Duck Tape WatchKit App";
+			sourceTree = "<group>";
+		};
+		B5793F8C25785B5F003CEDC8 /* Duck Tape WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B5793F8D25785B5F003CEDC8 /* Duck_TapeApp.swift */,
+				B5793F8F25785B5F003CEDC8 /* ContentView.swift */,
+				B5793F9125785B5F003CEDC8 /* NotificationController.swift */,
+				B5793F9325785B5F003CEDC8 /* NotificationView.swift */,
+				B5793F9525785B5F003CEDC8 /* ComplicationController.swift */,
+				B5793F9725785B5F003CEDC8 /* Assets.xcassets */,
+				B5793F9C25785B5F003CEDC8 /* Info.plist */,
+				B5793F9D25785B5F003CEDC8 /* PushNotificationPayload.apns */,
+				B5793F9925785B5F003CEDC8 /* Preview Content */,
+			);
+			path = "Duck Tape WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B5793F9925785B5F003CEDC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B5793F9A25785B5F003CEDC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5793F7725785B5D003CEDC8 /* Duck Tape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5793FA825785B5F003CEDC8 /* Build configuration list for PBXNativeTarget "Duck Tape" */;
+			buildPhases = (
+				B5793F7625785B5D003CEDC8 /* Resources */,
+				B5793FA725785B5F003CEDC8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5793F7F25785B5D003CEDC8 /* PBXTargetDependency */,
+			);
+			name = "Duck Tape";
+			productName = "Duck Tape";
+			productReference = B5793F7825785B5D003CEDC8 /* Duck Tape.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		B5793F7B25785B5D003CEDC8 /* Duck Tape WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5793FA425785B5F003CEDC8 /* Build configuration list for PBXNativeTarget "Duck Tape WatchKit App" */;
+			buildPhases = (
+				B5793F7A25785B5D003CEDC8 /* Resources */,
+				B5793FA325785B5F003CEDC8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5793F8B25785B5F003CEDC8 /* PBXTargetDependency */,
+			);
+			name = "Duck Tape WatchKit App";
+			productName = "Duck Tape WatchKit App";
+			productReference = B5793F7C25785B5D003CEDC8 /* Duck Tape WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B5793F8725785B5F003CEDC8 /* Duck Tape WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5793FA025785B5F003CEDC8 /* Build configuration list for PBXNativeTarget "Duck Tape WatchKit Extension" */;
+			buildPhases = (
+				B5793F8425785B5F003CEDC8 /* Sources */,
+				B5793F8525785B5F003CEDC8 /* Frameworks */,
+				B5793F8625785B5F003CEDC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Duck Tape WatchKit Extension";
+			productName = "Duck Tape WatchKit Extension";
+			productReference = B5793F8825785B5F003CEDC8 /* Duck Tape WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5793F7225785B5D003CEDC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					B5793F7725785B5D003CEDC8 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					B5793F7B25785B5D003CEDC8 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					B5793F8725785B5F003CEDC8 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = B5793F7525785B5D003CEDC8 /* Build configuration list for PBXProject "Duck Tape" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5793F7125785B5D003CEDC8;
+			productRefGroup = B5793F7925785B5D003CEDC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5793F7725785B5D003CEDC8 /* Duck Tape */,
+				B5793F7B25785B5D003CEDC8 /* Duck Tape WatchKit App */,
+				B5793F8725785B5F003CEDC8 /* Duck Tape WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5793F7625785B5D003CEDC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5793F7A25785B5D003CEDC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5793F8225785B5F003CEDC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5793F8625785B5F003CEDC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5793F9B25785B5F003CEDC8 /* Preview Assets.xcassets in Resources */,
+				B5793F9825785B5F003CEDC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5793F8425785B5F003CEDC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5793F9225785B5F003CEDC8 /* NotificationController.swift in Sources */,
+				B5793F9025785B5F003CEDC8 /* ContentView.swift in Sources */,
+				B5793F9625785B5F003CEDC8 /* ComplicationController.swift in Sources */,
+				B5793F8E25785B5F003CEDC8 /* Duck_TapeApp.swift in Sources */,
+				B5793F9425785B5F003CEDC8 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5793F7F25785B5D003CEDC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5793F7B25785B5D003CEDC8 /* Duck Tape WatchKit App */;
+			targetProxy = B5793F7E25785B5D003CEDC8 /* PBXContainerItemProxy */;
+		};
+		B5793F8B25785B5F003CEDC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5793F8725785B5F003CEDC8 /* Duck Tape WatchKit Extension */;
+			targetProxy = B5793F8A25785B5F003CEDC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B5793F9E25785B5F003CEDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5793F9F25785B5F003CEDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5793FA125785B5F003CEDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Duck Tape WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = XTWN7MS58G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Duck Tape WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yonkolevel.Duck-Tape.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		B5793FA225785B5F003CEDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Duck Tape WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = XTWN7MS58G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Duck Tape WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yonkolevel.Duck-Tape.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		B5793FA525785B5F003CEDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XTWN7MS58G;
+				IBSC_MODULE = Duck_Tape_WatchKit_Extension;
+				INFOPLIST_FILE = "Duck Tape WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yonkolevel.Duck-Tape.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		B5793FA625785B5F003CEDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XTWN7MS58G;
+				IBSC_MODULE = Duck_Tape_WatchKit_Extension;
+				INFOPLIST_FILE = "Duck Tape WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yonkolevel.Duck-Tape.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		B5793FA925785B5F003CEDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XTWN7MS58G;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yonkolevel.Duck-Tape";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B5793FAA25785B5F003CEDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XTWN7MS58G;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yonkolevel.Duck-Tape";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5793F7525785B5D003CEDC8 /* Build configuration list for PBXProject "Duck Tape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5793F9E25785B5F003CEDC8 /* Debug */,
+				B5793F9F25785B5F003CEDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5793FA025785B5F003CEDC8 /* Build configuration list for PBXNativeTarget "Duck Tape WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5793FA125785B5F003CEDC8 /* Debug */,
+				B5793FA225785B5F003CEDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5793FA425785B5F003CEDC8 /* Build configuration list for PBXNativeTarget "Duck Tape WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5793FA525785B5F003CEDC8 /* Debug */,
+				B5793FA625785B5F003CEDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5793FA825785B5F003CEDC8 /* Build configuration list for PBXNativeTarget "Duck Tape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5793FA925785B5F003CEDC8 /* Debug */,
+				B5793FAA25785B5F003CEDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5793F7225785B5D003CEDC8 /* Project object */;
+}
