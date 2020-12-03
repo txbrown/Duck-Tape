@@ -6,9 +6,11 @@
 //
 
 import SwiftUI
+import CoreMotion
 
 @main
 struct Duck_TapeApp: App {
+    
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {

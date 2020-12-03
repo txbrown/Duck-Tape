@@ -17,6 +17,7 @@
 		B5793F9625785B5F003CEDC8 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5793F9525785B5F003CEDC8 /* ComplicationController.swift */; };
 		B5793F9825785B5F003CEDC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5793F9725785B5F003CEDC8 /* Assets.xcassets */; };
 		B5793F9B25785B5F003CEDC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5793F9A25785B5F003CEDC8 /* Preview Assets.xcassets */; };
+		B5793FAF25785FA8003CEDC8 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5793FAE25785FA8003CEDC8 /* Tracker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		B5793F9A25785B5F003CEDC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B5793F9C25785B5F003CEDC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5793F9D25785B5F003CEDC8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		B5793FAE25785FA8003CEDC8 /* Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				B5793F9C25785B5F003CEDC8 /* Info.plist */,
 				B5793F9D25785B5F003CEDC8 /* PushNotificationPayload.apns */,
 				B5793F9925785B5F003CEDC8 /* Preview Content */,
+				B5793FAE25785FA8003CEDC8 /* Tracker.swift */,
 			);
 			path = "Duck Tape WatchKit Extension";
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5793FAF25785FA8003CEDC8 /* Tracker.swift in Sources */,
 				B5793F9225785B5F003CEDC8 /* NotificationController.swift in Sources */,
 				B5793F9025785B5F003CEDC8 /* ContentView.swift in Sources */,
 				B5793F9625785B5F003CEDC8 /* ComplicationController.swift in Sources */,
